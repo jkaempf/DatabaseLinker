@@ -1,4 +1,4 @@
-# CitySim Databse Linker
+# CitySim Database Linker
 Java program to connect to the Database of kaemco and produce an XML file for the simulation with CitySim
 
 1) Use the latest JDK mentioned in the Makefile
