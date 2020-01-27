@@ -1,8 +1,10 @@
-JAVAC		= 'C:\Program Files\Java\jdk1.8.0_152\bin\javac'
-JAVA		= 'C:\Program Files\Java\jdk1.8.0_152\bin\java'
+JAVAC		= 'C:\Program Files\Java\jdk-12.0.2\bin\javac'
+JAVA		= 'C:\Program Files\Java\jdk-12.0.2\bin\java'
 CLASSPATH	= './postgresql-9.4.1212.jar;./postgis.jar;.'
 
+ifeq ($(MAINCLASS),)
 MAINCLASS   = CitySimDatabaseLinkerXML
+endif
 EXEC		= $(MAINCLASS).class
 MAINSRC		= $(MAINCLASS).java
 
